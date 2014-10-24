@@ -115,7 +115,7 @@ public class BranchesActivity extends FragmentActivity implements
     }
     
     /*
-     * Click MarkerInfoWindows will now open up Google Maps Applicationt to show dirrections from current Location
+     * Click MarkerInfoWindows will now open up Google Maps Applicatio= to show directions from current Location
      * @see com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener#onInfoWindowClick(com.google.android.gms.maps.model.Marker)
      */
     @Override
@@ -235,7 +235,8 @@ public class BranchesActivity extends FragmentActivity implements
     	final LatLng WEBSTER_BRANCH = new LatLng(42.050815, -71.834792);
     	final LatLng AUBURN_BRANCH = new LatLng(42.190591, -71.846016);
     	final LatLng WEBSTER_CONV_CENTER = new LatLng(42.049149, -71.882981);
-    	
+        final LatLng LEOMINSTER_BRANCH = new LatLng(42.417115, -71.684628);
+
     	String uri = "http://maps.google.com/maps?saddr="+
     				mCurrentLocation.getLatitude()+","+mCurrentLocation.getLongitude();
     
@@ -288,9 +289,7 @@ public class BranchesActivity extends FragmentActivity implements
     								.snippet("4 Gore Rd, Webster, MA"));
 		markersMap.put(websterMarker, new Intent(android.content.Intent.ACTION_VIEW,
 		    	Uri.parse(uri+"&daddr="+WEBSTER_BRANCH.latitude+","+WEBSTER_BRANCH.longitude)));
-    	
-    	
-    	
+
     	//addMarker for Auburn Branch
 		//TODO: get better LatLng Values, this comes up with a different Address
 		//the current values are close but not exact.
@@ -300,6 +299,14 @@ public class BranchesActivity extends FragmentActivity implements
     								.snippet("569 Southbridge St, Heritage Plaza, Auburn, MA"));
 		 markersMap.put(auburnMarker, new Intent(android.content.Intent.ACTION_VIEW,
 			    	Uri.parse(uri+"&daddr="+AUBURN_BRANCH.latitude+","+AUBURN_BRANCH.longitude)));
+
+        //addMarker for Leominster Branch
+        Marker leominsterMarker = mMap.addMarker(new MarkerOptions()
+                .position(LEOMINSTER_BRANCH)
+                .title("Leominster Branch")
+                .snippet("9 Sack Boulevard, Leominster, MA 01543"));
+        markersMap.put(leominsterMarker, new Intent(android.content.Intent.ACTION_VIEW,
+                Uri.parse(uri+"&daddr="+LEOMINSTER_BRANCH.latitude+","+LEOMINSTER_BRANCH.longitude)));
     }
     
     private void setUpMapIfNeeded() {

@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 	}
 	
 	public void depositRatesButton(View v){
-		Uri uri = Uri.parse("http://m.hometowncoop.com/mobilerates.htm");
+		Uri uri = Uri.parse("https://hometowncoop.com/rates");
 		Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 		startActivity(intent);
 	}
