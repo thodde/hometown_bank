@@ -1,7 +1,5 @@
 package com.hometown.mobile;
 
-import com.hometown.mobile.R;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
