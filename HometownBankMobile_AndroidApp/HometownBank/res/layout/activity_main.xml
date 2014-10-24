@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <ImageView
+        android:id="@+id/logo_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/htb_logo"
+        android:src="@drawable/logo_clear" />
+
+    <TextView
+        android:id="@+id/hometown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_clear"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_hometown_mobile"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/way_banking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hometown_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_banking_should"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/signon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/way_banking"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@string/str_signon_button"
+        android:clickable="true"
+        android:onClick="accountSignOnButton"
+        android:paddingTop="10dp"
+        android:src="@drawable/account_signon_button" />
+    
+    <ImageButton
+        android:id="@+id/branch_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signon_button"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@string/str_branch_locations_button"
+        android:clickable="true"
+        android:onClick="branchLocationsButton"
+        android:paddingTop="7dp"
+        android:src="@drawable/branch_locations_button" />
+
+    <ImageButton
+        android:id="@+id/deposit_rates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/branch_locations"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@string/str_deposit_button"
+        android:clickable="true"
+        android:onClick="depositRatesButton"
+        android:paddingTop="7dp"
+        android:src="@drawable/deposit_rates_button" />
+
+    <ImageButton
+        android:id="@+id/mortage_rates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deposit_rates"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/str_mortgage_button"
+        android:clickable="true"
+        android:onClick="mortgageRatesButton"
+        android:paddingTop="7dp"
+        android:src="@drawable/mortgage_rates_button" />
+
+    <ImageButton
+        android:id="@+id/contact_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mortage_rates"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@string/str_contact_button"
+        android:clickable="true"
+        android:onClick="contactUsButton"
+        android:paddingTop="7dp"
+        android:src="@drawable/contact_us_button" />
+
+    <ImageView
+        android:id="@+id/fdic_icon"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:contentDescription="@+id/fdic_icon"
+        android:duplicateParentState="false"
+        android:longClickable="false"
+        android:src="@drawable/fdic" />
+
+    <TextView
+        android:id="@+id/full_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:onClick="fullWebsiteText"
+        android:paddingLeft="3dp"
+        android:text="@string/str_full_website"
+        android:textColor="@color/color_phone"
+        android:textSize="12sp" />
+
+</RelativeLayout>

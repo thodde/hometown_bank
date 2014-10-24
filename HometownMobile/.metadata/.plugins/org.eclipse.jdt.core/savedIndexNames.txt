@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+C:\Users\hoddet\Desktop\HometownMobile\.metadata\.plugins\org.eclipse.jdt.core
-3572814492.index
-1152746396.index
-1510756146.index

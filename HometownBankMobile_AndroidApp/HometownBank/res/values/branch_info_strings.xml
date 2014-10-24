@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="branch_locations">Branch Locations</string>
+    
+    <string name="athol_branch">Athol Branch</string>
+    <string name="athol_branch_address">90 Exchange Street, Athol, MA 01331</string>
+	<string name="athol_branch_number">(978) 249&#8211;3573</string>
+        
+	<string name="auburn_branch">Auburn Branch</string>
+	<string name="auburn_branch_address">569 Southbridge Street, Auburn, MA 01501</string>
+	<string name="auburn_branch_number">(508) 721&#8211;7623</string>
+	
+	
+	<string name="oxford_branch">Oxford Branch</string>
+	<string name="oxford_branch_address">31 Sutton Avenue, Oxford, MA 01540</string>
+	<string name="oxford_branch_number">(508) 987&#8211;1200</string>
+	
+	<string name="slancaster_branch">S.Lancaster Branch</string>
+	<string name="slancaster_branch_address">131 Main Street, S. Lancaster, MA 01561</string>
+	<string name="slancaster_branch_number">(978) 365&#8211;3352</string>
+	
+	<string name="sturbridge_branch">Sturbridge Branch</string>
+	<string name="sturbridge_branch_address">331 Main Street, Sturbridge, MA 01566</string>
+	<string name="sturbridge_branch_number">(508) 347&#8211;3312</string>
+	
+	<string name="webster_branch">Webster Branch</string>
+	<string name="webster_branch_address">218 Main Street, Webster, MA 01570</string>
+	<string name="webster_branch_number">(508) 943&#8211;6062</string>
+</resources>
