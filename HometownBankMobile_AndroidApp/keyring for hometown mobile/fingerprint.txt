@@ -12,3 +12,21 @@ Google Play(Android Market) currently requires certificates to be valid until 20
 Certificate fingerprints:
 MD5 : C9:E5:21:2A:26:CB:FD:62:D6:7B:F4:47:5B:EA:88:EA
 SHA1: 5F:A8:10:30:49:7C:1D:4C:99:36:A9:BF:72:F5:7C:3E:DB:02:98:B7
+
+
+
+
+
+
+
+MOST RECENT: 10/24/2014
+
+Certificate expires on Mon Aug 30 21:15:30 EDT 2038.
+The Certificate expires in 24 years.
+Make sure the certificate is valid for the planned lifetime of the product.
+If the certificate expires, you will be forced to sign your application with a different one.
+Applications cannot be upgraded if their certificate changes from one version to another, forcing a full uninstall/install, which will make the user lose his/her data.
+Google Play(Android Market) currently requires certificates to be valid until 2033.
+Certificate fingerprints:
+MD5 : C9:E5:21:2A:26:CB:FD:62:D6:7B:F4:47:5B:EA:88:EA
+SHA1: 5F:A8:10:30:49:7C:1D:4C:99:36:A9:BF:72:F5:7C:3E:DB:02:98:B7

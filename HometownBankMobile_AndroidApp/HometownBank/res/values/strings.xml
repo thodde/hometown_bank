@@ -3,7 +3,7 @@
     
     <!-- App Stuff -->
     <string name="app_name">Hometown Mobile</string>
-    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
     <string name="str_fdic_icon">FDIC Icon</string>
     
     <!-- User interface labels and strings -->
