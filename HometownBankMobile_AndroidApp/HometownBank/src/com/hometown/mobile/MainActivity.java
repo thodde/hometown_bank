@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 	}
 	
 	public void accountSignOnButton(View v){
-		Uri uri = Uri.parse("https://secure-hometowncoop.com/Common/SignOn/Start.asp");
+		Uri uri = Uri.parse("https://secure-hometowncoop.com/SignOn/Logon.aspx");
 		Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 		startActivity(intent);
 	}
